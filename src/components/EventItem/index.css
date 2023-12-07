@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.item {
+  width: 24vw;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #ffff;
+  padding: 5px;
+}
+
+.e-img {
+  height: 20vh;
+  width: 24vw;
+  margin: 0px;
+}
+.p {
+  margin: 4px;
+  margin-top: 5px;
+}
+.btn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  height: 20vh;
+  width: 24vw;
+  cursor: pointer;
+}
+.active {
+  border: 3px solid #2dd4bf;
+  border-radius: 5px;
+}
